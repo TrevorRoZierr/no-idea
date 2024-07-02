@@ -10,7 +10,7 @@ const Navbar = () => {
         linkTo="/"
         listName1="Offer"
         linkTo1="/"
-        listName2="Notice"
+        listName2="Creativity"
         linkTo2="/"
       />
       <h1 className="text-4xl font-bold">
