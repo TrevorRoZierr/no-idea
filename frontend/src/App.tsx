@@ -1,5 +1,9 @@
+import { SignedIn } from "@clerk/clerk-react";
+
 const App = () => {
-  return <div>App</div>;
+  return <div>
+    <SignedIn></SignedIn>
+  </div>;
 };
 
 export default App;
