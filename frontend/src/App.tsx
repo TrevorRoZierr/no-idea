@@ -1,9 +1,11 @@
-import { SignedIn } from "@clerk/clerk-react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <div>
-    <SignedIn></SignedIn>
-  </div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
